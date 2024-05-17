@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: ManRope;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vw;
+    
+}
+.main{
+    width: 90%;
+}
+
+div{
+    background-color: white;
+    width: 90%;
+    padding: 2.5rem;
+}
+article{
+    display: flex;
+    align-items: center;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    align-items: center;
+
+}
+span{
+}
+.michelle{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#share{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 100px;
+    
+}
+#share:hover{
+    cursor: pointer;
+    
+}
+#off{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+}
+@media (min-width: 1000px) {
+    
+    main{
+        width: 100%;
+        height: 100dvh;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main{
+        width: 25%;
+        height: 570px;
+        
+    }
+    div{
+        width: 25%;
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+    }
+
+    
+    
+}
